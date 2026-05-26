@@ -7,7 +7,9 @@
   --color-blue: #549ef2;
   --color-orange: #fcae4a;
   --text-preset-1: 600 2.25rem/140% "Poppins", sans-serif;
+  --text-preset-1-mob: 600 1.5rem/140% "Poppins", sans-serif;
   --text-preset-2: 275 2.25rem/140% "Poppins", sans-serif;
+  --text-preset-2-mob: 275 1.5rem/140% "Poppins", sans-serif;
   --text-preset-3: 600 1.25rem/135% "Poppins", sans-serif;
   --text-preset-4: 400 0.9375rem/140% "Poppins", sans-serif;
   --text-preset-5: 400 0.8125rem/140% "Poppins", sans-serif;
@@ -19,10 +21,39 @@
   --spacing-100: 0.5rem;
 }
 
+* {
+  margin: 0;
+}
+
+h1 {
+  font: var(--text-preset-2-mob);
+  color: var(--color-grey-500);
+}
+
+h2 {
+  font: var(--text-preset-1-mob);
+  color: var(--color-grey-500);
+}
+
+h3 {
+  font: var(--text-preset-3);
+}
+
+.description {
+  font: var(--text-preset-4);
+  color: var(--color-grey-500);
+}
+
+.card-content {
+  font: var(--text-preset-5);
+  color: var(--color-grey-400);
+}
+
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
