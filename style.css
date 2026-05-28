@@ -23,6 +23,15 @@
 
 * {
   margin: 0;
+  background-color: #fafafa;
+}
+
+main {
+  padding-inline: 1.8rem;
+}
+
+.intro {
+  padding-block: 3.5rem;
 }
 
 h1 {
@@ -45,14 +54,38 @@ h2 {
   color: var(--color-grey-500);
 }
 
+header {
+  text-align: center;
+}
+
 .description {
   font: var(--text-preset-4);
   color: var(--color-grey-500);
+  padding-block-start: var(--spacing-200);
+}
+
+.cards {
+  display: grid;
+  gap: var(--spacing-400);
+}
+
+.box {
+  height: 15.625rem;
+  width: 19.625rem;
+  padding: var(--spacing-400);
 }
 
 .card-content {
   font: var(--text-preset-5);
   color: var(--color-grey-400);
+}
+
+.icon {
+  display: grid;
+  justify-self: right;
+  height: 4rem;
+  width: 4rem;
+  padding-block-start: var(--spacing-400);
 }
 
 .attribution {
