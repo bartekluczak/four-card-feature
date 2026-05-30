@@ -77,7 +77,7 @@ header {
   display: flex;
   flex-direction: column;
   height: 15.625rem;
-  width: 19.625rem;
+  max-width: 19.625rem;
   padding: var(--spacing-400);
   border-radius: 4px;
   background-color: var(--color-white);
