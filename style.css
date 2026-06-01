@@ -120,6 +120,7 @@ header {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
 @media screen and (min-width: 48rem) {
   .cards {
     display: grid;
@@ -145,5 +146,9 @@ header {
 
 @media screen and (min-width: 64rem) {
   .cards {
+    align-items: center;
+    grid-template-areas:
+      "supervisor team-builder calculator"
+      "supervisor karma calculator";
   }
 }
