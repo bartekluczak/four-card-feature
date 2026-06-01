@@ -120,3 +120,30 @@ header {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media screen and (min-width: 48rem) {
+  .cards {
+    display: grid;
+    justify-items: center;
+    grid-template-areas:
+      "team-builder team-builder"
+      "supervisor karma"
+      "calculator calculator";
+  }
+  .supervisor {
+    grid-area: supervisor;
+  }
+  .team-builder {
+    grid-area: team-builder;
+  }
+  .karma {
+    grid-area: karma;
+  }
+  .calculator {
+    grid-area: calculator;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .cards {
+  }
+}
