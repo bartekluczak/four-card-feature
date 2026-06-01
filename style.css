@@ -130,15 +130,19 @@ header {
       "supervisor karma"
       "calculator calculator";
   }
+
   .supervisor {
     grid-area: supervisor;
   }
+
   .team-builder {
     grid-area: team-builder;
   }
+
   .karma {
     grid-area: karma;
   }
+
   .calculator {
     grid-area: calculator;
   }
