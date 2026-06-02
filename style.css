@@ -109,7 +109,7 @@ header {
   height: 4rem;
   width: 4rem;
   padding-block-start: var(--spacing-400);
-  align-self: self-end;
+  align-self: flex-end;
 }
 
 .attribution {
@@ -122,8 +122,15 @@ header {
 }
 
 @media screen and (min-width: 48rem) {
+  .intro-bold {
+    font: var(--text-preset-1);
+  }
+
+  .intro-light {
+    font: var(--text-preset-2);
+  }
+
   .cards {
-    display: grid;
     justify-items: center;
     grid-template-areas:
       "team-builder team-builder"
@@ -148,7 +155,7 @@ header {
   }
 }
 
-@media screen and (min-width: 64rem) {
+@media screen and (min-width: 78rem) {
   .cards {
     align-items: center;
     grid-template-areas:
